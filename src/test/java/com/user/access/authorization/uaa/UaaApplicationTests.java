@@ -1,10 +1,10 @@
-package com.plugin.uaa;
+package com.user.access.authorization.uaa;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class UaaServiceApplicationTests {
+class UaaApplicationTests {
 
 	@Test
 	void contextLoads() {

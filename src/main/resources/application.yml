@@ -1,0 +1,31 @@
+server:
+  port: 8080
+  
+
+spring:
+  application:
+    name: PLUGIN-UAA-SERVICE
+    
+  datasource:
+    url: jdbc:mysql://localhost:3306/mysql
+    username: root
+    password: Mystrongpass123
+    driverClassName: com.mysql.cj.jdbc.Driver
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    
+    
+    
+  security:
+    oauth2:
+      client:
+        registration:
+          custom-client:
+            client-id: custom-client-id
+            client-secret: custom-client-secret
+            scope: read,write
+            #authorized-grant-types: client_credentials    

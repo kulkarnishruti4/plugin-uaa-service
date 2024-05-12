@@ -1,13 +1,13 @@
-package com.plugin.uaa;
+package com.user.access.authorization.uaa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UaaServiceApplication {
+public class UaaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UaaServiceApplication.class, args);
+		SpringApplication.run(UaaApplication.class, args);
 	}
 
 }
